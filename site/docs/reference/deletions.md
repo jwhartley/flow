@@ -29,3 +29,5 @@ Hard deletes go a step further than soft deletes by permanently removing documen
   - MongoDB
   - MotherDuck
   - TimescaleDB
+
+You can enable this option by when setting up or editing your materialization in the '2. Endpoint Config' section by checking 'Hard Delete'. If you're editing an existing materialization, backfilling the materialization will ensure your destination's dataset is dropped and replaced with a dataset using hard deletes.
