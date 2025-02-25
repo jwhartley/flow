@@ -89,6 +89,8 @@ Click the **Details** drop down to show a sample of collection documents as well
 
 The collection documents are displayed by key. Click the desired key to preview it in its native JSON format.
 
+In the collection specification required fields will appear in **bold**, and optional fields will appear in _italics_.
+
 #### Using the flowctl CLI
 
 In your [authenticated flowctl session](../reference/authentication.md#authenticating-flow-using-the-cli), issue the command `flowctl collections read --collection <full/collection-name> --uncommitted`. For example, `flowctl collections read --collection acmeCo/inventory/anvils --uncommitted`.
